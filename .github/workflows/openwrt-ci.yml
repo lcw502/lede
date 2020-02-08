@@ -191,7 +191,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-control-timewol=y
           CONFIG_PACKAGE_luci-app-control-webrestriction=y
           CONFIG_PACKAGE_luci-app-control-weburl=y
-          CONFIG_PACKAGE_luci-app-smartdns=y
+          # CONFIG_PACKAGE_luci-app-smartdns=y
           EOF
           # LuCI主题:
           cat >> .config <<EOF
